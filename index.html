@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telekomunikacijska Kompanija</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dobrodošli u Telekomunikacijsku Kompaniju</h1>
+        <nav>
+            <ul>
+                <li><a href="#internet">Internet</a></li>
+                <li><a href="#mobilni-podaci">Mobilni Podaci</a></li>
+                <li><a href="#tv-paketi">TV Paketi</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Promijeni temu</button>
+    </header>
+
+    <section id="internet">
+        <h2>Internet</h2>
+        <p>Nudimo brze i pouzdane internet usluge za vaš dom i ured.</p>
+        <button class="info-btn" data-service="Internet">Više informacija</button>
+    </section>
+
+    <section id="mobilni-podaci">
+        <h2>Mobilni Podaci</h2>
+        <p>Naši mobilni paketi omogućuju vam pristup internetu bilo gdje i bilo kada.</p>
+        <button class="info-btn" data-service="Mobilni Podaci">Više informacija</button>
+    </section>
+
+    <section id="tv-paketi">
+        <h2>TV Paketi</h2>
+        <p>Uživajte u velikom izboru TV kanala i sadržaja putem naših TV paketa.</p>
+        <button class="info-btn" data-service="TV Paketi">Više informacija</button>
+    </section>
+
+    <footer>
+        <p>Kontaktirajte nas: info@telekom.com</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Informacije o usluzi</h2>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
